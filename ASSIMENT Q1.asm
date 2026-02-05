@@ -1,0 +1,8 @@
+ORG 0000H
+MOV A, #70
+MOV B, #67
+
+MUL AB
+ADD A,#22
+
+END
